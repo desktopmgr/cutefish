@@ -43,7 +43,7 @@ fi
 cutefish() { builtin type -P "cutefish-session" && return 0 || return 1; }
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Call the main function
-user_installdirs
+desktopmgr_install
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # OS Support: supported_os unsupported_oses
 unsupported_oses
